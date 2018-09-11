@@ -27,17 +27,10 @@ function keepFirstLast(str){
 //* Begin of tests
 const assert = require('assert')
 
-const assert = require('assert')
-assert.strictEqual(typeof keepFirst, 'function')
-assert.strictEqual(typeof str, 'string')
-assert.strictEqual(keepFirst('salut'), 'sa')
+assert.strictEqual(keepFirst('salut'), 'sa');
 
-assert.strictEqual(typeof keepLast, 'function')
-assert.strictEqual(typeof str, 'string')
-assert.strictEqual(keepLast('salut'), 'ut')
+assert.strictEqual(keepLast('salut'), 'ut');
 
-assert.strictEqual(typeof keepFirstLast, 'function')
-assert.strictEqual(typeof str, 'string')
 assert.strictEqual(keepFirstLast('salut'), 'ut')
 
 /* End of tests */
