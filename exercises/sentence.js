@@ -6,6 +6,13 @@
  *
  */
 
+function sentence(arr){
+    let resultat = "";
+    for(x = arr.length-1; x >= 0; x--){
+        resultat = arr[x] + " " + resultat;
+        
+    } return resultat.slice(0, -1);
+}
 
 //* Begin of tests
 const assert = require('assert')

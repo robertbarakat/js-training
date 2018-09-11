@@ -7,7 +7,18 @@
  * @notions Data-Structures, Get, Set
  */
 
-// Your code :
+ 
+  // Your code :
+
+  
+  
+  function circular(key){
+    let circular = {}
+    circular.key = "circular";
+    return circular;
+  }
+
+
 
 //* Begin of tests
 const assert = require('assert')
