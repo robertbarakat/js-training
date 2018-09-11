@@ -29,14 +29,8 @@ function multiply(a,b) {
             resultat += a;
         }
         return -resultat;
-    }
-    else if(a === b){
-        for(let x = 0; x < Math.abs(a); x++){
-            resultat += Math.abs(b);
-        }
-        return Math.abs(resultat);
     } 
-    else if(a == 0 && b == 0){
+    else if(a === 0 || b === 0){
         return Math.abs(0);
     }
     else {
