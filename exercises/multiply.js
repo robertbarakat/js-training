@@ -34,8 +34,11 @@ function multiply(a,b) {
         for(let x = 0; x < Math.abs(a); x++){
             resultat += Math.abs(b);
         }
-        return resultat;
+        return Math.abs(resultat);
     } 
+    else if(a == 0 && b == 0){
+        return Math.abs(0);
+    }
     else {
         for(let x = 0; x < a; x++){
             resultat += b;
