@@ -9,7 +9,7 @@
 
 function total(arr){
     let result = 0;
-    for(x = 0; x < arr.length; x++){
+    for(let x = 0; x < arr.length; x++){
         result = result + arr[x];
     }
     return result

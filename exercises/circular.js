@@ -12,13 +12,9 @@
 
   
   
-  function circular(key){
-    let circular = {}
-    circular.key = "circular";
-    return circular;
-  }
-
-
+let  circular = {
+  circular: let circular,
+}
 
 //* Begin of tests
 const assert = require('assert')
