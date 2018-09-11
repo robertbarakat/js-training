@@ -18,13 +18,13 @@ function multiply(a,b) {
         }
         return resultat;
     }
-    else if(a < 0){
+    else if(a < 0 && b > 0){
         for(let x = 0; x < Math.abs(a); x++){
             resultat += b;
         }
         return -resultat;
     }
-    else if(b < 0){
+    else if(b < 0 && a > 0){
         for(let x = 0; x < Math.abs(b); x++){
             resultat += a;
         }
