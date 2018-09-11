@@ -29,6 +29,9 @@ function multiply(a,b) {
             resultat += a;
         }
         return -resultat;
+    }
+    else if(a == 0 && b == 0){
+        return 0;
     } 
     else {
         for(let x = 0; x < a; x++){
