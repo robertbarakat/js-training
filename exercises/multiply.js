@@ -30,7 +30,7 @@ function multiply(a,b) {
         }
         return -resultat;
     }
-    else if(a == b){
+    else if(a === b){
         for(let x = 0; x < Math.abs(a); x++){
             resultat += Math.abs(b);
         }
