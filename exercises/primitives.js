@@ -9,6 +9,11 @@
 
 // Your code :
 
+const numero = 1337;
+const str = numero.toString();
+const num = 42;
+const bool = false;
+const undef = undefined;
 
 //* Begin of tests
 const assert = require('assert')

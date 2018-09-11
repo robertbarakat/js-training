@@ -11,6 +11,15 @@
 
 // Your code :
 
+function abs(a){
+    let absolute = Number(a);
+    if (absolute >= 0) {
+        return absolute;
+    } else {
+        return -absolute; 
+    }
+}
+
 //* Begin of tests
 const assert = require('assert')
 

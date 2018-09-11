@@ -8,6 +8,10 @@
 
 // Your code :
 
+function concatStr(a, b){
+    return(a+b);
+}
+
 //* Begin of tests
 const assert = require('assert')
 
