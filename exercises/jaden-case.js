@@ -22,8 +22,8 @@ function jadenCase(str) {
            myArray[j+1] = myArray[j+1].toUpperCase();
         } 
     } 
-    let resultat = myArray.join();
-    return resultat.replace(/,/g, '');
+    let resultat = myArray.join(";");
+    return resultat.replace(/;/g, '');
 } 
 
 

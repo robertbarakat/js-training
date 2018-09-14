@@ -8,16 +8,11 @@
  
 
  function words(str) {
-    const myArray = new Array();
 
-    for(let i = 0; i < str.length; i++){
-        if(str.charAt(i) !== " ") {
-            myArray.push(str.charAt(i))
-        }
-    } return myArray;
+    const myArray = str.split(" ");
+    return myArray;
+
 }
-
-
 
 
 
