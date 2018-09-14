@@ -9,12 +9,11 @@
 
  
   // Your code :
+  
+const circular = Object.create(null);
 
-  
-  
-let  circular = {
-  circular: let circular,
-}
+circular.circular = circular;
+
 
 //* Begin of tests
 const assert = require('assert')
