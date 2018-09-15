@@ -29,6 +29,14 @@ function multiply(x, y) {
         }
     }
 
+    else if (x < 0 && y > 0) {
+        return (x + multiply(x, y - 1))
+    }
+
+    else if (x > 0 && y < 0) {
+        return (y + multiply(y, x - 1))
+    }
+
     else {
         return 0;
     }
